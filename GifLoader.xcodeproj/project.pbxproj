@@ -15,6 +15,9 @@
 		A3951A79261B5CEE00863A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3951A77261B5CEE00863A0D /* LaunchScreen.storyboard */; };
 		A3951A84261B5CF000863A0D /* GifLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3951A83261B5CF000863A0D /* GifLoaderTests.swift */; };
 		A3951A8F261B5CF000863A0D /* GifLoaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3951A8E261B5CF000863A0D /* GifLoaderUITests.swift */; };
+		A3951AA0261B5DCF00863A0D /* SignpostTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3951A9F261B5DCF00863A0D /* SignpostTracker.swift */; };
+		A3951AA5261B5E7500863A0D /* PerformanceTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3951AA4261B5E7500863A0D /* PerformanceTrackingManager.swift */; };
+		A3951AA9261B61FD00863A0D /* SignpostTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3951A9F261B5DCF00863A0D /* SignpostTracker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,8 @@
 		A3951A8A261B5CF000863A0D /* GifLoaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifLoaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3951A8E261B5CF000863A0D /* GifLoaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLoaderUITests.swift; sourceTree = "<group>"; };
 		A3951A90261B5CF000863A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3951A9F261B5DCF00863A0D /* SignpostTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignpostTracker.swift; sourceTree = "<group>"; };
+		A3951AA4261B5E7500863A0D /* PerformanceTrackingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTrackingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +107,8 @@
 				A3951A6C261B5CEA00863A0D /* AppDelegate.swift */,
 				A3951A6E261B5CEA00863A0D /* SceneDelegate.swift */,
 				A3951A70261B5CEA00863A0D /* ViewController.swift */,
+				A3951A9F261B5DCF00863A0D /* SignpostTracker.swift */,
+				A3951AA4261B5E7500863A0D /* PerformanceTrackingManager.swift */,
 				A3951A72261B5CEA00863A0D /* Main.storyboard */,
 				A3951A75261B5CEE00863A0D /* Assets.xcassets */,
 				A3951A77261B5CEE00863A0D /* LaunchScreen.storyboard */,
@@ -260,7 +267,9 @@
 			files = (
 				A3951A71261B5CEA00863A0D /* ViewController.swift in Sources */,
 				A3951A6D261B5CEA00863A0D /* AppDelegate.swift in Sources */,
+				A3951AA5261B5E7500863A0D /* PerformanceTrackingManager.swift in Sources */,
 				A3951A6F261B5CEA00863A0D /* SceneDelegate.swift in Sources */,
+				A3951AA0261B5DCF00863A0D /* SignpostTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3951A8F261B5CF000863A0D /* GifLoaderUITests.swift in Sources */,
+				A3951AA9261B61FD00863A0D /* SignpostTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
