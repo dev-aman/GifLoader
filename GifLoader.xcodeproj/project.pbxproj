@@ -18,6 +18,8 @@
 		A3951AA0261B5DCF00863A0D /* SignpostTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3951A9F261B5DCF00863A0D /* SignpostTracker.swift */; };
 		A3951AA5261B5E7500863A0D /* PerformanceTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3951AA4261B5E7500863A0D /* PerformanceTrackingManager.swift */; };
 		A3951AA9261B61FD00863A0D /* SignpostTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3951A9F261B5DCF00863A0D /* SignpostTracker.swift */; };
+		A3DD12642620B43C004B8777 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = A3DD12632620B43C004B8777 /* loader.gif */; };
+		A3DD126A2620BA60004B8777 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DD12692620BA60004B8777 /* iOSDevCenters+GIF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		A3951A90261B5CF000863A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3951A9F261B5DCF00863A0D /* SignpostTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignpostTracker.swift; sourceTree = "<group>"; };
 		A3951AA4261B5E7500863A0D /* PerformanceTrackingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTrackingManager.swift; sourceTree = "<group>"; };
+		A3DD12632620B43C004B8777 /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = "<group>"; };
+		A3DD12692620BA60004B8777 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +109,13 @@
 			isa = PBXGroup;
 			children = (
 				A3951A6C261B5CEA00863A0D /* AppDelegate.swift */,
+				A3DD12682620BA60004B8777 /* GifLoader */,
 				A3951A6E261B5CEA00863A0D /* SceneDelegate.swift */,
 				A3951A70261B5CEA00863A0D /* ViewController.swift */,
 				A3951A9F261B5DCF00863A0D /* SignpostTracker.swift */,
 				A3951AA4261B5E7500863A0D /* PerformanceTrackingManager.swift */,
 				A3951A72261B5CEA00863A0D /* Main.storyboard */,
+				A3DD12632620B43C004B8777 /* loader.gif */,
 				A3951A75261B5CEE00863A0D /* Assets.xcassets */,
 				A3951A77261B5CEE00863A0D /* LaunchScreen.storyboard */,
 				A3951A7A261B5CEE00863A0D /* Info.plist */,
@@ -133,6 +139,14 @@
 				A3951A90261B5CF000863A0D /* Info.plist */,
 			);
 			path = GifLoaderUITests;
+			sourceTree = "<group>";
+		};
+		A3DD12682620BA60004B8777 /* GifLoader */ = {
+			isa = PBXGroup;
+			children = (
+				A3DD12692620BA60004B8777 /* iOSDevCenters+GIF.swift */,
+			);
+			path = GifLoader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3951A79261B5CEE00863A0D /* LaunchScreen.storyboard in Resources */,
+				A3DD12642620B43C004B8777 /* loader.gif in Resources */,
 				A3951A76261B5CEE00863A0D /* Assets.xcassets in Resources */,
 				A3951A74261B5CEA00863A0D /* Main.storyboard in Resources */,
 			);
@@ -266,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3951A71261B5CEA00863A0D /* ViewController.swift in Sources */,
+				A3DD126A2620BA60004B8777 /* iOSDevCenters+GIF.swift in Sources */,
 				A3951A6D261B5CEA00863A0D /* AppDelegate.swift in Sources */,
 				A3951AA5261B5E7500863A0D /* PerformanceTrackingManager.swift in Sources */,
 				A3951A6F261B5CEA00863A0D /* SceneDelegate.swift in Sources */,

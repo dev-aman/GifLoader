@@ -18,7 +18,7 @@ class ViewController: UIViewController {
                                                   y: (self.view.frame.height/2)-100,
                                                   width: 300,
                                                   height: 200))
-        imageView.image = UIImage(named: "whymeme")
+        imageView.image = UIImage.gifImageWithName("loader")
         imageView.accessibilityIdentifier = "randomImageView"
         imageView.contentMode = .scaleAspectFit
         return imageView
