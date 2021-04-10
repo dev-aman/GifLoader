@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        performanceTrackingManager.start()
+        performanceTrackingManager.start() 
         networkCall()
     }
 
