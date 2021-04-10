@@ -26,10 +26,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-        let documentsDirectory = paths[0]
-        print("aman: \(documentsDirectory)")
-        
         performanceTrackingManager.start()
         networkCall()
     }
